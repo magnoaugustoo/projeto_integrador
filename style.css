@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #137fd9;
+  color: white;
+}
+
+a {
+  color: greenyellow;
+}
+
+#login-cadastro {
+  padding: 2.5rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#email-cadastro {
+  padding: 0 2.5rem;
+  font-size: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#cadastro {
+  background-color: blue;
+}
+
+form {
+  color: white;
+  padding: 2.5rem;
+}
+
+input {
+  height: 45px;
+  width: 400px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+
+button {
+  background-color: yellowgreen;
+  color: black;
+  font-weight: 500;
+  border: none;
+  height: 45px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+#cadastrar {
+  padding: 2.5rem;
+}
+
+.possui-conta {
+  padding: 2.5rem;
+}
+
+#pagina {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#image img {
+  height: 650px;
+}
+
+#bem-vindo {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  font-size: 1rem;
+  justify-content: start;
+}
+
+#video {
+  margin-right: 3rem;
+}
+
+#video .youtube {
+  border-radius: 15px;
+}
+
+#bem-vindo .aluno {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+#bem-vindo .comunidade {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#identificacao {
+  padding: 3rem;
+  max-width: 500px;
+}
+
+#identificacao .curso {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: yellowgreen;
+}
+
+#identificacao .nome-curso {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+#identificacao .duracao-curso {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#identificacao p {
+  text-align: justify;
+}
+
+#link {
+  margin-left: 3rem;
+}
